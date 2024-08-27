@@ -21,7 +21,7 @@ async function getPokemonData(query) {
 function displayPokemon(pokemon) {
     const cardContainer = document.getElementById('pokemonCard');
     cardContainer.innerHTML = `
-        <div class="col-md-4 mb-4">
+        <div class="col-md-2 mb-2">
             <div class="card" style="cursor: pointer;" data-bs-toggle="modal" data-bs-target="#pokemonModal">
                 <img src="${pokemon.sprites.front_default}" class="card-img-top" alt="${pokemon.name}">
                 <div class="card-body">
